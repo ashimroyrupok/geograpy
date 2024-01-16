@@ -124,6 +124,7 @@ function App() {
       },
     ],
   };
+ 
 
   const handleInput = (e) => {
     console.log("hello");
@@ -144,6 +145,7 @@ function App() {
   console.log(findZilla);
 
   // console.log(data.upazilas.length);
+  // console.log(findZilla[0].cities);
 
   return (
     <>
@@ -166,6 +168,7 @@ function App() {
             ))}
         </select>
       </div>
+
     </>
   );
 }
